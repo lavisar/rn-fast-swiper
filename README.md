@@ -1,4 +1,4 @@
-# React Native Flat Swiper
+# RN Fast Swiper
 
 [![Downloads](https://img.shields.io/npm/dt/rn-fast-swiper.svg?style=flat&color=success)](https://www.npmjs.com/package/rn-fast-swiper)
 [![Version](https://img.shields.io/npm/v/rn-fast-swiper?style=flat&color=success)](https://www.npmjs.com/package/rn-fast-swiper)
@@ -8,8 +8,9 @@
 <br/>
 
 # Preview
+![Screen-Recording-2024-08-09-at-16 24 52](https://github.com/user-attachments/assets/5b23819f-94d3-4c13-b365-869d5f30f8f1)
 
-![Screen-Recording-2024-08-08-at-17 42 28](https://github.com/user-attachments/assets/308caee8-757e-4161-8072-420ba0cb96b9) ![Screen-Recording-2024-08-08-at-17 39 51](https://github.com/user-attachments/assets/e08a7199-893a-48b0-a577-1a79cf67e7b4)
+![Screen-Recording-2024-08-09-at-16 26 00](https://github.com/user-attachments/assets/64c0c8e1-62eb-41b5-97e3-db16fd49e04e)
 
 
 # Installation
@@ -19,13 +20,13 @@ Type in the following to the command line to install the module.
 <br/>
 
 ```bash
-$ npm install --save react-native-flat-swiper
+$ npm install --save rn-fast-swiper
 ```
 
 or
 
 ```bash
-$ yarn add react-native-flat-swiper
+$ yarn add rn-fast-swiper
 ```
 
 <br/>
@@ -36,31 +37,30 @@ $ yarn add react-native-flat-swiper
 
 ## Usage
 
-Add an `import` to the top of the file. At minimal, place `array` data into the `data` prop and render the pages using the `renderItem` prop.
-
 ```javascript
-import FlatSwiper from 'react-native-flat-swiper';
+import RNFastSwiper from 'react-native-flat-swiper';
 import { View, Image, StyleSheet } from 'react-native';
 import React, { useRef } from 'react';
 
 const SomeComponent = () => {
-	const flatSwiperRef = useRef(null);
+
+  const rnFastSwiperRef = useRef(null);
 
   const onSwipeIndexChange = (index: number) => {
     // get the index of the card when on swiping
   };
 
   //Trigger to next card by ref:
-  flatSwiperRef?.current?.scrollBy(1, false);  //scrollBy(cardIndex: number, animation: boolean)
+  rnFastSwiperRef?.current?.scrollBy(1, false);  //scrollBy(cardIndex: number, animation: boolean)
 
   //Trigger to any card by ref with index:
-  flatSwiperRef?.current?.scrollTo(yourCardIndex, false); //scrollTo(cardIndex: number, animation: boolean)
+  rnFastSwiperRef?.current?.scrollTo(yourCardIndex, false); //scrollTo(cardIndex: number, animation: boolean)
 
 return (
-   <FlatSwiper
+   <RNFastSwiper
 	index={0}
 	loop={false}
-	ref={flatSwiperRef}
+	ref={rnFastSwiperRef}
 	horizontal={false}
 	loadMinimal={true}
 	data={yourData[] || []}
