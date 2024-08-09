@@ -1,12 +1,9 @@
 # React Native Flat Swiper
 
-<!-- ![Libraries.io dependency status for latest release](https://img.shields.io/librariesio/release/npm/react-native-flat-swiper)
-[![Build Size](https://img.shields.io/bundlejs/size/react-native-flat-swiper)](https://pkg-size.dev/react-native-flat-swiper) -->
-
-[![Downloads](https://img.shields.io/npm/dt/react-native-flat-swiper.svg?style=flat&color=success)](https://www.npmjs.com/package/react-native-flat-swiper)
-[![Version](https://img.shields.io/npm/v/react-native-flat-swiper?style=flat&color=success)](https://www.npmjs.com/package/react-native-flat-swiper)
-<a href="https://pkg-size.dev/react-native-flat-swiper"><img src="https://pkg-size.dev/badge/install/103906" title="Install size for react-native-flat-swiper"></a>
-<a href="https://pkg-size.dev/react-native-flat-swiper"><img src="https://pkg-size.dev/badge/bundle/24854" title="Bundle size for react-native-flat-swiper"></a>
+[![Downloads](https://img.shields.io/npm/dt/rn-fast-swiper.svg?style=flat&color=success)](https://www.npmjs.com/package/rn-fast-swiper)
+[![Version](https://img.shields.io/npm/v/rn-fast-swiper?style=flat&color=success)](https://www.npmjs.com/package/rn-fast-swiper)
+<a href="https://pkg-size.dev/rn-fast-swiper"><img src="https://pkg-size.dev/badge/install/103906" title="Install size for rn-fast-swiper"></a>
+<a href="https://pkg-size.dev/rn-fast-swiper"><img src="https://pkg-size.dev/badge/bundle/24854" title="Bundle size for rn-fast-swiper"></a>
 
 <br/>
 
