@@ -1,4 +1,4 @@
-# RN Fast Swiper
+# React Native Fast Swiper
 
 [![Downloads](https://img.shields.io/npm/dt/rn-fast-swiper.svg?style=flat&color=success)](https://www.npmjs.com/package/rn-fast-swiper)
 [![Version](https://img.shields.io/npm/v/rn-fast-swiper?style=flat&color=success)](https://www.npmjs.com/package/rn-fast-swiper)
